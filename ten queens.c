@@ -25,7 +25,7 @@ char check(int i, char q[], char x) {
     return x;
 }
 
-int gen(int i, char q[], char x) {
+int gen(int i, char q[]) {
   char z = '0', h;
   int j = 0, po = 0;
 
@@ -76,7 +76,7 @@ int main() {
     '-',
     '-'
   };
-  printf("\n\n>>>>>>>>>%d<<<<<<<<<<<<", gen(0, q, '0'));
+  printf("\n\n>>>>>>>>>%d<<<<<<<<<<<<", gen(0, q));
 
   return 0;
 }
